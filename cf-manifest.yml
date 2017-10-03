@@ -1,0 +1,6 @@
+---
+applications:
+  - name: concourse101-demo-app
+    buildpack: https://github.com/cloudfoundry/ruby-buildpack.git
+    path: .
+
